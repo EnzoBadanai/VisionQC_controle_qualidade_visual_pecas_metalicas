@@ -1,0 +1,1 @@
+# VisionQC_controle_qualidade_visual_pecas_metalicas
