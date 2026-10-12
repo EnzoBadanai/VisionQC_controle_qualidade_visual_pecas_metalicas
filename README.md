@@ -2,8 +2,6 @@
 
 Classificação de peças metálicas de fundição como **corretas** ou **defeituosas** a partir de imagens, usando transfer learning com MobileNetV2, fine-tuning e Grad-CAM para analisar onde o modelo olha.
 
-Projeto desenvolvido como PEC 4 do curso de Inteligência Artificial (CEI).
-
 ## Problema
 
 Em controle de qualidade industrial, uma peça defeituosa que passa como boa chega ao cliente. Por isso, a métrica que mais importa é o **recall da classe defeituosa**, e não apenas a accuracy.
@@ -70,13 +68,6 @@ VisionQC/
 ├── README.md
 └── VisionQC_controle_qualidade_visual_pecas_metalicas.ipynb
 ```
-
-## Próximos passos
-
-1. Refazer o teste com a pasta `test` oficial do dataset, para medir o efeito da repetição de peças.
-2. Repetir o treino com várias sementes e comparar a média do baseline e do fine-tuning.
-3. Anotar os defeitos com caixas e treinar um detector (YOLO), para localizar o defeito e comparar com as regiões do Grad-CAM.
-4. Servir o modelo por uma API FastAPI em Docker.
 
 ## Autor
 
